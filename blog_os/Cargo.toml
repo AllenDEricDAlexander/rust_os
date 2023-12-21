@@ -11,11 +11,11 @@ name = "stack_overflow"
 harness = false
 
 [dependencies]
-bootloader = "0.11.4"
-volatile = "0.5.1"
-spin = "0.9.8"
-x86_64 = "0.14.11"
-uart_16550 = "0.3.0"
+bootloader = "0.9.8"
+volatile = "0.2.6"
+spin = "0.5.2"
+x86_64 = "0.14.2"
+uart_16550 = "0.2.0"
 
 [dependencies.lazy_static]
 version = "1.0"
